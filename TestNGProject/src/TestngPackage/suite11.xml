@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite">
+
+  <test name="PIM">
+  
+    <parameter name="strURL" value="http://apps.qaplanet.in/hrm/index.php"/>
+   
+    <parameter name="sUsername" value="qaplanet1"/>
+   
+    <parameter name="sPassword" value="lab1"/>
+           
+           <classes>
+           
+               <class name="TestngPackage.multiPerameters"/>
+            
+            </classes>
+   
+   </test>
+   
+  </suite>

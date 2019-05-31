@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="PIM(failed)">
+    <parameter name="sUsername" value="qaplanet1"/>
+    <parameter name="strURL" value="http://apps.qaplanet.in/hrm/index.php"/>
+    <parameter name="sPassword" value="lab1"/>
+    <classes>
+      <class name="TestngPackage.multiPerameters">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestngPackage.multiPerameters -->
+    </classes>
+  </test> <!-- PIM(failed) -->
+</suite> <!-- Failed suite [Suite] -->

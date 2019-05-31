@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[enter username]]>
+    </line>
+    <line>
+      <![CDATA[enter password]]>
+    </line>
+    <line>
+      <![CDATA[enter submit or clear]]>
+    </line>
+    <line>
+      <![CDATA[verify homepage]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23516" started-at="2019-05-31T07:25:18Z" finished-at="2019-05-31T07:25:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23516" started-at="2019-05-31T07:25:18Z" finished-at="2019-05-31T07:25:41Z">
+      <class name="Testcases.Tc_4">
+        <test-method status="PASS" signature="launch()[pri:0, instance:Testcases.Tc_4@1e88b3c]" name="launch" is-config="true" duration-ms="5192" started-at="2019-05-31T07:25:12Z" finished-at="2019-05-31T07:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="Tc1()[pri:1, instance:Testcases.Tc_4@1e88b3c]" name="Tc1" duration-ms="6572" started-at="2019-05-31T07:25:18Z" finished-at="2019-05-31T07:25:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[enter username]]>
+            </line>
+            <line>
+              <![CDATA[enter password]]>
+            </line>
+            <line>
+              <![CDATA[enter submit or clear]]>
+            </line>
+            <line>
+              <![CDATA[verify homepage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc1 -->
+        <test-method status="PASS" signature="tc4()[pri:4, instance:Testcases.Tc_4@1e88b3c]" name="tc4" duration-ms="16925" started-at="2019-05-31T07:25:24Z" finished-at="2019-05-31T07:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+      </class> <!-- Testcases.Tc_4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

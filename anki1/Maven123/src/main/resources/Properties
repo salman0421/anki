@@ -1,0 +1,12 @@
+ chromepath = D:\\Selenium_Demp\\chromedriver.exe
+ url = http://apps.qaplanet.in/qahrm/login.php
+username = qaplanet1
+password = lab1
+LastName = Ankaiah
+FirstName = Boddu
+photofile  = E:\\indian-flag-cover.jpg
+LName=Prathap
+FName=Raana
+select=indiann
+marital=Unmarried
+Search=Ankaiah
